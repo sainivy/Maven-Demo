@@ -9,7 +9,7 @@ pipeline{
            bat label: '', script: 'mvn install' }
        }
        stage ("deploy"){
-          steps {sh label: '', script: 'cp -rp "C:\\Program Files (x86)\\Jenkins\\workspace\\demo3\\multi-module\\webapp\\target\\webapp.war"  "C:\\\\Program Files\\\\Apache Software Foundation\\\\Tomcat 8.5\\\\webapps"'}
+          steps {sh label: '', script: 'cp -rp "C:\\Program Files (x86)\\Jenkins\\workspace\\declare\\multi-module\\webapp\\target\\webapp.war"  "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps"'}
        }
        
    }   
